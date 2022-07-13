@@ -1,14 +1,12 @@
-/* eslint-disable no-unused-vars */
+import React from 'react';
 
-import React from "react";
-
-import Navbar from "./components/Navbar";
-import Routes from "./Routes";
+import Navbar from './components/Navbar';
+import Routes from './Routes';
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes />
     </div>
   );
